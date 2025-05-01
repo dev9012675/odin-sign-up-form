@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign-up Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="image-container">
+        <div class="logo-container">
+          <img src="images/odin-lined.png" alt="" class="logo-image" />
+          <h1 class="logo-text">ODIN</h1>
+        </div>
+        <span>
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
+        </span>
+      </div>
+      <div class="text-container">
+        <p class="call-to-action">
+          This is not a real online service!You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <span class="second-call">You know you want to.</span>
+        <form action="" class="sign-up-form">
+          <h1 class="form-heading">Let's do this!</h1>
+          <div class="input-container">
+            <div>
+              <label for="fname" class="fname">FIRST NAME</label>
+              <input
+                type="text"
+                required
+                id="fname"
+                minlength="1"
+                maxlength="26"
+              />
+            </div>
+            <div>
+              <label for="lname" class="lname">LAST NAME</label>
+              <input
+                type="text"
+                required
+                id="lname"
+                minlength="1"
+                maxlength="26"
+              />
+            </div>
+            <div>
+              <label for="email" class="email">EMAIL</label>
+              <input
+                type="email"
+                required
+                id="email"
+                minlength="1"
+                maxlength="26"
+              />
+            </div>
+            <div>
+              <label for="phone" class="phone">PHONE NUMBER</label>
+              <input type="text" id="phone" />
+            </div>
+            <div>
+              <label for="password" class="password">PASSWORD</label>
+              <input
+                type="password"
+                required
+                id="password"
+                minlength="1"
+                maxlength="26"
+              />
+            </div>
+            <div>
+              <label for="confirm-password" class="confirm-password"
+                >CONFIRM PASSWORD</label
+              >
+              <input
+                type="password"
+                required
+                id="confirm-password"
+                minlength="1"
+                maxlength="26"
+              />
+            </div>
+          </div>
+        </form>
+        <button class="submit">Create Account</button>
+        <p class="final-line">
+          Already have an account?<a href="" class="link">Log In</a>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
